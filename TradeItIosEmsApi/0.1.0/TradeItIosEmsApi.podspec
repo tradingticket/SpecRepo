@@ -7,12 +7,12 @@ Pod::Spec.new do |s|
     ObjC EMS API Client used to communicate with the Trade It Execution Management Service.
                        DESC
 
-  s.homepage         = 'https://github.com/tradingticket/TradeItIosEmsApiPod'
+  s.homepage         = 'https://github.com/tradingticket/TradeItIosEmsApi'
   s.license          = { :type => 'Apache License 2.0', :file => 'LICENSE' }
-  s.author           = { 'James Robert Somers' => 'james@trade.it' }
-  s.source           = { :git => 'https://github.com/tradingticket/TradeItIosEmsApiPod.git', :tag => s.version.to_s }
+  s.author           = { 'Trading Ticket Inc.' => 'support@trade.it' }
+  s.source           = { :git => 'https://github.com/tradingticket/TradeItIosEmsApi.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'TradeItIosEmsApi/Classes/**/*'
+  s.source_files = 'TradeItIosEmsApi/**/*'
 end
