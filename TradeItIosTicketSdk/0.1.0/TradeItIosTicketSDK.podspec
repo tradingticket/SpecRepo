@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'https://github.com/tradingticket/TradeItIosTicketSdk'
   s.license          = { :type => 'Apache License 2.0', :file => 'LICENSE' }
-  s.author           = { 'James Robert Somers' => 'james@trade.it' }
+  s.author           = { 'Trading Ticket Inc.' => 'support@trade.it' }
   s.source           = { :git => 'https://github.com/tradingticket/TradeItIosTicketSdk.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/tradingticket'
 
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
     'TradeItIosTicketSdk' => ['TradeItIosTicketSdk/**/*.xib']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'TradeItIosTicketSdk//**/*.h'
   s.frameworks = 'UIKit'
   s.dependency 'TradeItIosAdSdk', '~> 0.1.1'
   s.dependency 'TradeItIosEmsApi', '~> 0.1'
