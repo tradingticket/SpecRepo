@@ -16,20 +16,18 @@ Pod::Spec.new do |s|
     A library that provides tools for inserting ads into your iOS apps using the TradeIt platform.
                        DESC
 
-  s.homepage         = 'https://github.com/tradingticket/TradeItIosAdSdkPod'
+  s.homepage         = 'https://github.com/tradingticket/TradeItIosAdSdk'
   s.license          = { :type => 'Apache License 2.0', :file => 'LICENSE' }
-  s.author           = { 'James Robert Somers' => 'james@trade.it' }
-  s.source           = { :git => 'https://github.com/tradingticket/TradeItIosAdSdkPod.git', :tag => s.version.to_s }
+  s.author           = { 'Trading Ticket Inc.' => 'support@trade.it' }
+  s.source           = { :git => 'https://github.com/tradingticket/TradeItIosAdSdk.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'TradeItIosAdSdk/Classes/**/*'
+  s.source_files = 'TradeItIosAdSdk/**/*.swift'
   
   s.resource_bundles = {
     'TradeItIosAdSdk' => ['TradeItIosAdSdk/**/*.{xib,der}']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
