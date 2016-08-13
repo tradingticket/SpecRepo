@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.source_files = 'TradeItIosTicketSdk/**/*.{h,m}'
 
   s.resource_bundles = {
-    'TradeItIosTicketSdk' => ['TradeItIosTicketSdk/**/*.xib']
+    'TradeItIosTicketSdk' => ['TradeItIosTicketSdk/**/*.{xib,storyboard,png}']
   }
 
   # s.public_header_files = 'TradeItIosTicketSdk//**/*.h'
