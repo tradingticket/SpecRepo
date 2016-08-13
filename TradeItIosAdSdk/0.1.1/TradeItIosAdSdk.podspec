@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/tradingticket/TradeItIosAdSdkPod'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'Apache License 2.0', :file => 'LICENSE' }
   s.author           = { 'James Robert Somers' => 'james@trade.it' }
   s.source           = { :git => 'https://github.com/tradingticket/TradeItIosAdSdkPod.git', :tag => s.version.to_s }
 
