@@ -17,11 +17,11 @@ Pod::Spec.new do |s|
 
   s.source_files = 'TradeItIosTicketSDK/**/*.{h,m}'
 
-#  s.resource_bundles = {
-#    'TradeItIosTicketSDK' => ['TradeItIosTicketSDK/**/*.{storyboard,xib,png}']
-#  }
+  s.resource_bundles = {
+    'TradeItIosTicketSDK' => ['TradeItIosTicketSDK/**/*.{storyboard,xib,png}']
+  }
 
-  s.resources = ['TradeItIosTicketSDK/**/*.{storyboard,xib,png}']
+#  s.resources = ['TradeItIosTicketSDK/**/*.{storyboard,xib,png}']
 
   # s.public_header_files = 'TradeItIosTicketSDK/**/*.h'
   s.frameworks = 'UIKit'
