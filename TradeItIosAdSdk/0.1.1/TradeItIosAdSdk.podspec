@@ -25,9 +25,11 @@ Pod::Spec.new do |s|
 
   s.source_files = 'TradeItIosAdSdk/**/*.swift'
   
-  s.resource_bundles = {
-    'TradeItIosAdSdk' => ['TradeItIosAdSdk/**/*.{xib,der}']
-  }
+  #s.resource_bundles = {
+  #  'TradeItIosAdSdk' => ['TradeItIosAdSdk/**/*.{xib,der}']
+  #}
+
+  s.resources = ['TradeItIosAdSdk/**/*.{xib,der}']
 
   s.frameworks = 'UIKit'
 end
