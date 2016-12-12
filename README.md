@@ -1,5 +1,6 @@
 ### Creating a new version:
 ```
+git fetch -p --tags
 git tag [new tag]
 git push --tags
 carthage update
